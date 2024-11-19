@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SylPrint | Coming Soon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .container h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+        .container h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .countdown {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .subscribe {
+            margin-top: 20px;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 70%;
+            max-width: 300px;
+        }
+        .subscribe button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .subscribe button:hover {
+            background-color: #555;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+        @media (max-width: 600px) {
+            .container h1 {
+                font-size: 2rem;
+            }
+            .container h2 {
+                font-size: 1.2rem;
+            }
+            .countdown {
+                font-size: 1.5rem;
+            }
+            .subscribe input[type="email"] {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SylPrint</h1>
+        <h2>Gift-Print-Design</h2>
+        <p class="countdown">Launching Soon...</p>
+        <div class="subscribe">
+            <p>Stay Updated:</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Notify Me</button>
+        </div>
+        <footer>&copy; 2024 SylPrint. All Rights Reserved.</footer>
+    </div>
+</body>
+</html>
